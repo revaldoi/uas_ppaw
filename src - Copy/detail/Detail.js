@@ -4,16 +4,15 @@ import 'bootstrap/dist/css/bootstrap-grid.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'jquery';
 import 'popper.js';
-import './css/home.css';
-import Banner from './Banner';
 
-function Home() {
+function Detail() {
     return (
-        <div>
-            {/* <!-- BANNER : REVALDO --> */}
-            <Banner />
-        </div >
+        <div className="App">
+            <div className="jumbotron text-center">
+                <h1>TODO</h1>
+            </div>
+        </div>
     );
 }
 
-export default Home;
+export default Detail;
