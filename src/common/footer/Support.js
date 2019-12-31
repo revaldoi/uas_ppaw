@@ -12,7 +12,7 @@ export default function Support() {
         <div class="row">
           <div class="col-md-3 col-6">
             <div class="inline icon">
-              <img src="img/time.png" alt="" />
+              <img src="../img/time.png" alt="" />
             </div>
             <div class="inline info">
               <p>Working Days/Hours!</p>
@@ -21,7 +21,7 @@ export default function Support() {
           </div>
           <div class="col-md-3 col-6 divider">
             <div class="inline icon">
-              <img src="img/phone.png" alt="" />
+              <img src="../img/phone.png" alt="" />
             </div>
             <div class="inline info">
               <p>Free Support Line!</p>
@@ -30,7 +30,7 @@ export default function Support() {
           </div>
           <div class="col-md-3 col-6 divider">
             <div class="inline icon">
-              <img src="img/mail.png" alt="" />
+              <img src="../img/mail.png" alt="" />
             </div>
             <div class="inline info">
               <p>Order Support!</p>
@@ -39,7 +39,7 @@ export default function Support() {
           </div>
           <div class="col-md-3 col-6 divider">
             <div class="inline icon">
-              <img src="img/cart.png" alt="" />
+              <img src="../img/cart.png" alt="" />
             </div>
             <div class="inline info">
               <p>Safe Shopping!</p>

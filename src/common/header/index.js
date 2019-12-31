@@ -67,7 +67,7 @@ export default function Header() {
           <div class="row">
             <div class="col-md-3">
               <a class="navbar-brand risk" href="#hi">
-                <img class="img-fluid" src="img/logo.png" alt="yubobo" />
+                <img class="img-fluid" src="../img/logo.png" alt="yubobo" />
               </a>
             </div>
             <div class="col-md-8 mt-4">

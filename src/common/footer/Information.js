@@ -12,7 +12,7 @@ export default function Information() {
         <div class="row">
           <div class="col-md-3 col-12">
             <a class="navbar-brand padding-bottom-20" href="katalog.html">
-              <img src="img/logo.png" class="height-60 img-fluid lazy" />
+              <img src="../img/logo.png" class="height-60 img-fluid lazy" />
             </a>
             <h4>CONTACT US</h4>
             <ul class="widget-list">
@@ -136,7 +136,7 @@ export default function Information() {
               <li>
                 <div class="inline image">
                   <div class="crop-footer">
-                    <img src="img/pyntar.png" />
+                    <img src="../img/pyntar.png" />
                   </div>
                 </div>
                 <div class="inline text">
@@ -149,7 +149,7 @@ export default function Information() {
               <li>
                 <div class="inline image">
                   <div class="crop-footer">
-                    <img src="img/dyare.png" />
+                    <img src="../img/dyare.png" />
                   </div>
                 </div>
                 <div class="inline text">
