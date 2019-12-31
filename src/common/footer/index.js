@@ -1,6 +1,15 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/css/bootstrap-grid.min.css";
-import "bootstrap/dist/js/bootstrap.js";
-import "jquery";
-import "popper.js";
+import Support from "./Support";
+import Information from "./Information";
+import Copyright from "./Copyright";
+
+export default function Footer() {
+  return (
+    <React.Fragment>
+      <Support />
+      <footer class="d-none d-sm-block">
+        <Information />
+        <Copyright />
+      </footer>
+    </React.Fragment>
+  );
+}
