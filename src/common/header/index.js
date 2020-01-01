@@ -1,5 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Contact from "./Contact";
 import SearchMid from "./SearchMid";
 import SearchSm from "./SearchSm";

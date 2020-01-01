@@ -1,5 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../img/logo.png";
 
 export default function SearchMid() {
@@ -26,7 +25,7 @@ export default function SearchMid() {
   }
 
   return (
-    <div class="container d-none d-md-block">
+    <div class="container-fluid d-none d-md-block pb-4 pl-5">
       <div class="row">
         <div class="col-md-3">
           <a class="navbar-brand risk" href="#hi">

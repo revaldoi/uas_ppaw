@@ -11,25 +11,7 @@ import Detail from "./detail/Detail";
 import Header from "./common/header";
 
 function App() {
-  return (
-    <HashRouter>
-      <Header />
-      <div className="container-fluid text-center bg-dark">
-        <NavLink className="btn btn-danger" to="/Home">
-          Home
-        </NavLink>
-        <NavLink className="btn btn-primary" to="/catalog">
-          Catalog
-        </NavLink>
-        <NavLink className="btn btn-danger" to="/Detail">
-          Detail
-        </NavLink>
-      </div>
-      <Route exact="exact" path="/home" component={Home} />
-      <Route exact="exact" path="/catalog" component={Catalog} />
-      <Route exact="exact" path="/detail" component={Detail} />
-    </HashRouter>
-  );
+  return <Header />;
 }
 
 export default App;
