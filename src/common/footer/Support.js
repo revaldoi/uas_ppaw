@@ -14,7 +14,7 @@ export default function Support() {
               <img src={time} alt="" />
             </div>
             <div className="inline info">
-              <p>Working Days/Hours!</p>chart
+              <p>Working Days/Hours!</p>
               <span>Mon - Fri / 08:00 - 18:00</span>
             </div>
           </div>
