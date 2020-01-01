@@ -14,7 +14,7 @@ export default function SearchSm() {
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
-        <div class="col-8">
+        <div class="col-8 pl-0 pr-0">
           <div class="form-group has-search d-block d-md-none h-20">
             <span class="fa fa-search form-control-feedback"></span>
             <input
@@ -26,12 +26,14 @@ export default function SearchSm() {
         </div>
         <div class="col-2 margin-0 padding-0">
           <div class="navbar-nav nv-icon">
-            <a class="nav-link nv-link">
-              <i class="fas fa-heart"></i>
-            </a>
-            <a class="nav-link nv-icon">
-              <i class="fas fa-shopping-cart"></i>
-            </a>
+            <div class="row pl-3">
+              <a class="nav-link nv-link">
+                <i class="fas fa-heart"></i>
+              </a>
+              <a class="nav-link nv-icon pl-3">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
