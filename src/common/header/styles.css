@@ -1,0 +1,72 @@
+.margin-0 {
+  margin: 0;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.ft-13 {
+  font-size: 13px;
+}
+
+.ft-12 {
+  font-size: 12px;
+}
+
+.ft-9 {
+  font-size: 9px;
+}
+
+.bg-white {
+  background: white;
+}
+
+.text-r {
+  text-align: right;
+}
+
+.bg-base {
+  background: rgba(59, 178, 184, 1);
+}
+
+.h-120 {
+  height: 120px;
+}
+
+.h-40 {
+  height: 40px;
+}
+
+.h-20 {
+  height: 20px;
+}
+
+.br-20 {
+  border-radius: 20px;
+}
+
+.bd-0 {
+  border: 0px;
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.nv-icon {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.nv-con {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+.nv-link {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
