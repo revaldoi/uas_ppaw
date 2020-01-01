@@ -1,0 +1,166 @@
+.divider {
+  border-left: thin solid #eee;
+}
+
+.dividerm {
+  border-left: thin solid #fff;
+  height: 90px;
+  margin-top: 10px;
+}
+
+.mobile-info {
+  padding: 15px;
+}
+
+.mobil-infor {
+  margin-top: -5px;
+}
+
+.cta {
+  background: rgb(66, 230, 149);
+  background: linear-gradient(
+    72deg,
+    rgba(66, 230, 149, 1) 0%,
+    rgba(59, 178, 184, 1) 100%
+  );
+  color: #ffff;
+}
+.p-50 {
+  padding: 50px 0px;
+}
+.p-35 {
+  padding: 35px 0px;
+}
+.cta .icon .fa {
+  font-size: 50px;
+}
+.cta .info {
+  margin-left: 20px;
+}
+.cta .info p {
+  margin-bottom: 5px;
+}
+.cta .infom {
+  line-height: 100%;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+}
+.inline.image {
+  text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .inline.icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 12px;
+  }
+  footer {
+    padding-bottom: 47px;
+  }
+  footer .widget {
+    padding: 30px 0px;
+  }
+  footer .widget h4 {
+    margin-top: 20px;
+  }
+  footer .mb-50 {
+    margin-bottom: 20px;
+  }
+  footer .copyright {
+    font-size: 13px;
+    text-align: center;
+  }
+  footer .copyright {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+footer .copyright {
+  background-color: #30323f;
+  padding: 20px 0px;
+}
+
+footer .copyright p {
+  color: #ffffff;
+  margin: 0px;
+}
+
+footer .copyright a {
+  color: #ffffff;
+}
+
+footer .widget {
+  background-color: #f5f9fc;
+  padding: 60px 0px;
+  color: #ffffff;
+}
+
+footer .widget {
+  color: #697687;
+}
+
+footer .widget h4 {
+  font-size: 16px;
+  border-bottom: 1px solid #697687;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+footer .widget li {
+  margin-bottom: 7px;
+}
+
+.crop-footer {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+}
+
+.crop-footer img {
+  height: 60px;
+  width: auto !important;
+  text-decoration: none;
+}
+
+.date {
+  color: #c1cadb;
+  text-decoration: none;
+}
+
+footer .text {
+  color: #697687;
+  text-decoration: none;
+}
+
+.widget-list {
+  padding: 0;
+}
+
+.blog-list li {
+  border-bottom: 1px solid #697687;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.blog-list li:last-child {
+  border: none;
+}
+
+.extra {
+  line-height: 200%;
+}

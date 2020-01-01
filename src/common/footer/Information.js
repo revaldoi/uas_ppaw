@@ -5,157 +5,157 @@ import dyare from "../img/dyare.png";
 
 export default function Information() {
   return (
-    <div class="widget">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-12">
-            <a class="navbar-brand padding-bottom-20" href="katalog.html">
-              <img src={logo} class="height-60 img-fluid lazy" />
+    <div className="widget">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3 col-12">
+            <a className="navbar-brand padding-bottom-20" href="katalog.html">
+              <img src={logo} alt="logo" className="height-60 img-fluid lazy" />
             </a>
             <h4>CONTACT US</h4>
-            <ul class="widget-list">
+            <ul className="widget-list">
               <li>
-                <i class="text" aria-hidden="true"></i>
+                <i className="text" aria-hidden="true"></i>
                 Jl. Asia Afrika No. 30, Bandung Utara
               </li>
               <li>
-                <i class="text" aria-hidden="true"></i>
+                <i className="text" aria-hidden="true"></i>
                 123456789 - 123456789
               </li>
               <li>
-                <i class="text" aria-hidden="true"></i>
+                <i className="text" aria-hidden="true"></i>
                 admin@dplasa.com
               </li>
             </ul>
           </div>
-          <div class="col">
+          <div className="col">
             <h4>INFORMATION</h4>
-            <ul class="widget-list extra">
+            <ul className="widget-list extra">
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Deliveri Information
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Terms & Conditions
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Affiliate
                 </a>
               </li>
             </ul>
           </div>
-          <div class="col">
+          <div className="col">
             <h4>CUSTOMER SERVICE</h4>
-            <ul class="widget-list extra">
+            <ul className="widget-list extra">
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Contact Us
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Returns
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Site Map
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Order History
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Wish List
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Newsletter
                 </a>
               </li>
             </ul>
           </div>
-          <div class="col">
+          <div className="col">
             <h4>EXTRAS</h4>
-            <ul class="widget-list extra">
+            <ul className="widget-list extra">
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Brands
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Gift Certificates
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Affiliate
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Specials
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   My Account
                 </a>
               </li>
               <li>
-                <a href="katalog.html" class="text">
+                <a href="katalog.html" className="text">
                   Order History
                 </a>
               </li>
             </ul>
           </div>
-          <div class="col-md-3 col-12">
+          <div className="col-md-3 col-12">
             <h4>FROM OUR BLOG</h4>
-            <ul class="blog-list">
+            <ul className="blog-list">
               <li>
-                <div class="inline image">
-                  <div class="crop-footer">
-                    <img src={pyntar} />
+                <div className="inline image">
+                  <div className="crop-footer">
+                    <img src={pyntar} alt="pintar" />
                   </div>
                 </div>
-                <div class="inline text">
+                <div className="inline text">
                   <a href="katalog.html">
-                    <p class="text">Sering Melamun Pertanda Cerdas?</p>
-                    <span class="date">Mon, 04-12-2017</span>
+                    <p className="text">Sering Melamun Pertanda Cerdas?</p>
+                    <span className="date">Mon, 04-12-2017</span>
                   </a>
                 </div>
               </li>
               <li>
-                <div class="inline image">
-                  <div class="crop-footer">
-                    <img src={dyare} />
+                <div className="inline image">
+                  <div className="crop-footer">
+                    <img src={dyare} alt="diare" />
                   </div>
                 </div>
-                <div class="inline text">
+                <div className="inline text">
                   <a href="katalog.html">
-                    <p class="text">
+                    <p className="text">
                       Ketahui Berbagai Penyebab Diare dan Cara Mengatasi Diare
                     </p>
-                    <span class="date">Mon, 04-12-2017</span>
+                    <span className="date">Mon, 04-12-2017</span>
                   </a>
                 </div>
               </li>

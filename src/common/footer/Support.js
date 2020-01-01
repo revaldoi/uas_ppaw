@@ -6,41 +6,41 @@ import cart from "../img/cart.png";
 
 export default function Support() {
   return (
-    <section class="cta p-35 d-none d-sm-block">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-6">
-            <div class="inline icon">
+    <section className="cta p-35 d-none d-sm-block">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-3 col-6">
+            <div className="inline icon">
               <img src={time} alt="" />
             </div>
-            <div class="inline info">
+            <div className="inline info">
               <p>Working Days/Hours!</p>chart
               <span>Mon - Fri / 08:00 - 18:00</span>
             </div>
           </div>
-          <div class="col-md-3 col-6 divider">
-            <div class="inline icon">
+          <div className="col-md-3 col-6 divider">
+            <div className="inline icon">
               <img src={phone} alt="" />
             </div>
-            <div class="inline info">
+            <div className="inline info">
               <p>Free Support Line!</p>
               <span>123456789</span>
             </div>
           </div>
-          <div class="col-md-3 col-6 divider">
-            <div class="inline icon">
+          <div className="col-md-3 col-6 divider">
+            <div className="inline icon">
               <img src={mail} alt="" />
             </div>
-            <div class="inline info">
+            <div className="inline info">
               <p>Order Support!</p>
               <span>admin@plasa.com</span>
             </div>
           </div>
-          <div class="col-md-3 col-6 divider">
-            <div class="inline icon">
+          <div className="col-md-3 col-6 divider">
+            <div className="inline icon">
               <img src={cart} alt="" />
             </div>
-            <div class="inline info">
+            <div className="inline info">
               <p>Safe Shopping!</p>
               <span>Safe Shopping Guarantee</span>
             </div>
