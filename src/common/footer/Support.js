@@ -1,9 +1,8 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/css/bootstrap-grid.min.css";
-import "bootstrap/dist/js/bootstrap.js";
-import "jquery";
-import "popper.js";
+import phone from "../img/phone.png";
+import time from "../img/time.png";
+import mail from "../img/mail.png";
+import cart from "../img/cart.png";
 
 export default function Support() {
   return (
@@ -12,16 +11,16 @@ export default function Support() {
         <div class="row">
           <div class="col-md-3 col-6">
             <div class="inline icon">
-              <img src="../img/time.png" alt="" />
+              <img src={time} alt="" />
             </div>
             <div class="inline info">
-              <p>Working Days/Hours!</p>
+              <p>Working Days/Hours!</p>chart
               <span>Mon - Fri / 08:00 - 18:00</span>
             </div>
           </div>
           <div class="col-md-3 col-6 divider">
             <div class="inline icon">
-              <img src="../img/phone.png" alt="" />
+              <img src={phone} alt="" />
             </div>
             <div class="inline info">
               <p>Free Support Line!</p>
@@ -30,7 +29,7 @@ export default function Support() {
           </div>
           <div class="col-md-3 col-6 divider">
             <div class="inline icon">
-              <img src="../img/mail.png" alt="" />
+              <img src={mail} alt="" />
             </div>
             <div class="inline info">
               <p>Order Support!</p>
@@ -39,7 +38,7 @@ export default function Support() {
           </div>
           <div class="col-md-3 col-6 divider">
             <div class="inline icon">
-              <img src="../img/cart.png" alt="" />
+              <img src={cart} alt="" />
             </div>
             <div class="inline info">
               <p>Safe Shopping!</p>

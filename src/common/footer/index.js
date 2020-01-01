@@ -1,3 +1,4 @@
+import React from "react";
 import Support from "./Support";
 import Information from "./Information";
 import Copyright from "./Copyright";
