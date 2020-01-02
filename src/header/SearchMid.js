@@ -60,7 +60,7 @@ export default function SearchMid() {
         </div>
         <div className="col-md-1 mt-4 pl-2 pl-0">
           <div className="navbar-nav nv-con">
-            <a className="nav-link nv-icon pl-0 ml-0">
+            <a className="nav-link nv-icon pl-0 ml-0 pr-0">
               <i className="fas fa-heart"></i>
             </a>
             <a className="nav-link nv-icon">
