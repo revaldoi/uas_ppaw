@@ -2,36 +2,36 @@ import React from "react";
 
 export default function SearchSm() {
   return (
-    <div class="container d-block d-md-none mt-2 h-40">
-      <div class="row">
-        <div class="col-2 d-md-none d-block">
+    <div className="container d-block d-md-none mt-2 h-40">
+      <div className="row">
+        <div className="col-2 d-md-none d-block">
           <button
             type="button"
-            class="btn navbar-toggler bd-0"
+            className="btn navbar-toggler bd-0"
             data-toggle="collapse"
             data-target="#navbarCollapse"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
         </div>
-        <div class="col-8 pl-0 pr-0">
-          <div class="form-group has-search d-block d-md-none h-20">
-            <span class="fa fa-search form-control-feedback"></span>
+        <div className="col-8 pl-0 pr-0">
+          <div className="form-group has-search d-block d-md-none h-20">
+            <span className="fa fa-search form-control-feedback"></span>
             <input
               type="text"
-              class="form-control br-20"
+              className="form-control br-20"
               placeholder="Cari produk..."
             />
           </div>
         </div>
-        <div class="col-2 margin-0 padding-0">
-          <div class="navbar-nav nv-icon">
-            <div class="row pl-3">
-              <a class="nav-link nv-link" href="">
-                <i class="fas fa-heart"></i>
+        <div className="col-2 margin-0 padding-0">
+          <div className="navbar-nav nv-icon">
+            <div className="row pl-3">
+              <a className="nav-link nv-link" href="">
+                <i className="fas fa-heart"></i>
               </a>
-              <a class="nav-link nv-icon pl-3" href="">
-                <i class="fas fa-shopping-cart"></i>
+              <a className="nav-link nv-icon pl-3" href="">
+                <i className="fas fa-shopping-cart"></i>
               </a>
             </div>
           </div>
