@@ -62,11 +62,19 @@
 .nv-con {
   display: inline-block;
   width: 100%;
-  text-align: right;
+  text-align: left;
 }
 
 .nv-link {
   display: inline-block;
-  margin-left: 5px;
-  margin-right: 5px;
+}
+
+.navbar {
+  border: 0;
+  background: rgb(66, 230, 149);
+  background: linear-gradient(
+    72deg,
+    rgba(66, 230, 149, 1) 0%,
+    rgba(59, 178, 184, 1) 100%
+  );
 }

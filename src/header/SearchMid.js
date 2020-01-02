@@ -17,7 +17,7 @@ export default function SearchMid() {
   for (let list of lists) {
     final.push(
       <span className="ml-2">
-        <a href="katalog.html" className="text-white ft-9">
+        <a href="katalog.html" className="text-white ft-12">
           {list}
         </a>
       </span>
@@ -49,18 +49,18 @@ export default function SearchMid() {
               </a>
             </div>
           </div>
-          <div className="mt-2 text-white under-search ft-9">
+          <div className="mt-2 text-white under-search">
             <span className="">
-              <a href="katalog.html" className="text-white ft-9">
+              <a href="katalog.html" className="text-white ft-12">
                 Elektronik
               </a>
             </span>
             {final}
           </div>
         </div>
-        <div className="col-md-1 mt-4 margin-0 padding-0">
+        <div className="col-md-1 mt-4 pl-2 pl-0">
           <div className="navbar-nav nv-con">
-            <a className="nav-link nv-icon">
+            <a className="nav-link nv-icon pl-0 ml-0">
               <i className="fas fa-heart"></i>
             </a>
             <a className="nav-link nv-icon">

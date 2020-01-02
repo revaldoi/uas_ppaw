@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="row d-none d-md-block ml-0 mr-0 pl-0 pr-0">
+    <div className="row d-none d-md-block ml-0 mr-0 pl-0 pr-0 pb-2">
       <div className="container-fluid">
         <div className="col-md-12 row ml-0 mr-0 pl-0 pr-0">
           <LeftPart />
@@ -15,7 +15,7 @@ export default function Contact() {
 
 function LeftPart() {
   return (
-    <div className="col-md-9 mt-1 ml-500 pr-0 pl-4">
+    <div className="col-md-9 mt-1 ml-500 pr-0 pl-4 pt-1">
       <span className="text-white ft-13">
         <i className="fas fa-envelope text-white mr-1"></i>
         admin@plasa.com
