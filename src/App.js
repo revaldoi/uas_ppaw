@@ -5,8 +5,6 @@ import "bootstrap/dist/css/bootstrap-grid.min.css";
 import "bootstrap/dist/js/bootstrap.js";
 import "jquery";
 import "popper.js";
-import Home from "./home/Home";
-import Catalog from "./catalog/Catalog";
 import Detail from "./detail/Detail";
 
 function App() {
