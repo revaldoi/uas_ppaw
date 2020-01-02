@@ -18,7 +18,7 @@ function Banner() {
           </div>
           <div className="col-5 edo nopadding">
             <div className="col-12 nopadding atas">
-              <a href="katalog.html">
+              <a href="/catalog">
                 <img
                   src="https://www.converse.com.sg/wp-content/uploads/2014/01/homepage-Chuck-II-Refresh-1600x540.jpg"
                   alt=""
@@ -26,7 +26,7 @@ function Banner() {
               </a>
             </div>
             <div className="col-12 nopadding atas mt-1">
-              <a href="katalog.html">
+              <a href="/catalog">
                 <img
                   src="https://www.prosoundgear.com/wp-content/uploads/2017/03/JBL-Banner.jpg"
                   alt=""
@@ -49,7 +49,7 @@ function Banner() {
                 <p>3299 produk</p>
               </div>
               <div className="col-6 pencarian text-center nopadding">
-                <a href="katalog.html">
+                <a href="/catalog">
                   <img
                     src="https://image.flaticon.com/icons/svg/1974/1974761.svg"
                     alt=""
@@ -65,7 +65,7 @@ function Banner() {
                 <p>1020 produk</p>
               </div>
               <div className="col-6 pencarian text-center nopadding">
-                <a href="katalog.html">
+                <a href="/catalog">
                   <img
                     src="https://image.flaticon.com/icons/svg/186/186239.svg"
                     alt=""
@@ -81,7 +81,7 @@ function Banner() {
                 <p>2090 produk</p>
               </div>
               <div className="col-6 pencarian text-center nopadding">
-                <a href="katalog.html">
+                <a href="/catalog">
                   <img
                     src="https://www.flaticon.com/premium-icon/icons/svg/2161/2161462.svg"
                     alt=""
@@ -97,7 +97,7 @@ function Banner() {
                 <p>4404 produk</p>
               </div>
               <div className="col-6 pencarian text-center nopadding">
-                <a href="katalog.html">
+                <a href="/catalog">
                   <img
                     src="https://image.flaticon.com/icons/svg/124/124106.svg"
                     alt=""

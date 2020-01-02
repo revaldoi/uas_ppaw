@@ -8,7 +8,7 @@ import ProductSidebar from "./img/katalog-side.png";
 
 function Sidebar() {
   return (
-    <div classNameName="App">
+    <div className="App">
       <div className="container-fluid py-5 sided">
         <h4>Cari Produk</h4>
         <input
@@ -37,7 +37,7 @@ function Sidebar() {
             Laptop & Aksesoris
           </p>
           <p>
-            <input type="checkbox" checked="checked" />
+            <input type="checkbox" defaultChecked />
             Fashion Wanita
           </p>
           <p>

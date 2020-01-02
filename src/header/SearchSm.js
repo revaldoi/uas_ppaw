@@ -27,10 +27,10 @@ export default function SearchSm() {
         <div className="col-2 margin-0 padding-0">
           <div className="navbar-nav nv-icon">
             <div className="row pl-3">
-              <a className="nav-link nv-link" href="">
+              <a className="nav-link nv-link" href="/catalog">
                 <i className="fas fa-heart"></i>
               </a>
-              <a className="nav-link nv-icon pl-3" href="">
+              <a className="nav-link nv-icon pl-3" href="/catalog">
                 <i className="fas fa-shopping-cart"></i>
               </a>
             </div>

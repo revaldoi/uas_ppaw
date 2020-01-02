@@ -18,7 +18,7 @@ function Iphone() {
         <div className="text-center">
           <span className="label label-discount">20% OFF</span>
 
-          <a href="detail.html">
+          <a href="/detail">
             <img
               className="card-img-top catalog"
               src={ProductImage}

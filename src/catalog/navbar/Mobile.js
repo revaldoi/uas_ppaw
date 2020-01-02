@@ -12,11 +12,11 @@ function Mobile() {
   return (
     <div className="App">
       <section className="d-block d-sm-none bread-mobile">
-        <a href="#" className="text-dark">
+        <a href="/" className="text-dark">
           Home
         </a>
         <i className="fa fa-angle-double-right" aria-hidden="true"></i>
-        <a href="#" className="text-dark font-weight-bold active">
+        <a href="/catalog" className="text-dark font-weight-bold active">
           Katalog
         </a>
       </section>

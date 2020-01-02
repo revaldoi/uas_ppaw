@@ -174,7 +174,7 @@ export default function Product() {
         <div className="row col-md-12">
           <div className="card-product col-md-2 col-sm-6 py-2 px-0">
             <div className="card ">
-              <a href="#">
+              <a href="/catalog">
                 <div className="product">
                   <img src={rekomendasi} alt="produk" />
                 </div>
@@ -203,7 +203,7 @@ export default function Product() {
               <div className="corner-ribbon">
                 20% <i>off</i>
               </div>
-              <a href="#">
+              <a href="/catalog">
                 <div className="product">
                   <img src={rekomendasi} alt="produk" />
                 </div>
@@ -232,7 +232,7 @@ export default function Product() {
               <div className="corner-ribbon">
                 20% <i>off</i>
               </div>
-              <a href="#">
+              <a href="/catalog">
                 <div className="product">
                   <img src={rekomendasi} alt="produk" />
                 </div>
@@ -259,7 +259,7 @@ export default function Product() {
           </div>
           <div className="card-product col-md-2 col-sm-6 py-2 px-0">
             <div className="card ">
-              <a href="#">
+              <a href="/catalog">
                 <div className="product">
                   <img src={rekomendasi} alt="produk" />
                 </div>
@@ -288,7 +288,7 @@ export default function Product() {
               <div className="corner-ribbon">
                 20% <i>off</i>
               </div>
-              <a href="#">
+              <a href="/catalog">
                 <div className="product">
                   <img src={rekomendasi} alt="produk" />
                 </div>
@@ -314,7 +314,7 @@ export default function Product() {
           </div>
           <div className="card-product col-md-2 col-sm-6 py-2 px-0">
             <div className="card ">
-              <a href="#">
+              <a href="/catalog">
                 <div className="product">
                   <img src={rekomendasi} alt="produk" />
                 </div>

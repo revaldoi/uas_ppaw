@@ -14,30 +14,30 @@ function Benardi() {
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         rel="stylesheet"
       />
-      <div class="card">
-        <div class="text-center">
-          <a href="detail.html">
+      <div className="card">
+        <div className="text-center">
+          <a href="/detail">
             <img
-              class="card-img-top catalog"
+              className="card-img-top catalog"
               src={ProductImage}
               alt="Benardi"
             />
           </a>
         </div>
-        <div class="card-body">
-          <a href="detail.html" class="product-name">
+        <div className="card-body">
+          <a href="/detail" className="product-name">
             Benardi Sup Merah 300 Gr
           </a>
           <br></br>
-          <h3 class="price">Rp 24,300</h3>
-          <s class="was">Rp 27,000</s>
-          <div class="rating-div">
-            <span class="rating">
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star-half-o" aria-hidden="true"></i>
-              <i class="fa fa-star-o" aria-hidden="true"></i>
+          <h3 className="price">Rp 24,300</h3>
+          <s className="was">Rp 27,000</s>
+          <div className="rating-div">
+            <span className="rating">
+              <i className="fa fa-star" aria-hidden="true"></i>
+              <i className="fa fa-star" aria-hidden="true"></i>
+              <i className="fa fa-star" aria-hidden="true"></i>
+              <i className="fa fa-star-half-o" aria-hidden="true"></i>
+              <i className="fa fa-star-o" aria-hidden="true"></i>
               <a>10 ulasan</a>
             </span>
           </div>

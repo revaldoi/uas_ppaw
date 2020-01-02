@@ -14,25 +14,29 @@ function Fossil() {
         href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         rel="stylesheet"
       />
-      <div class="card">
-        <div class="text-center">
-          <a href="detail.html">
-            <img class="card-img-top catalog" src={ProductImage} alt="Fossil" />
+      <div className="card">
+        <div className="text-center">
+          <a href="/detail">
+            <img
+              className="card-img-top catalog"
+              src={ProductImage}
+              alt="Fossil"
+            />
           </a>
         </div>
-        <div class="card-body">
-          <a href="detail.html" class="product-name">
+        <div className="card-body">
+          <a href="/detail" className="product-name">
             Fossil - Jam Tangan Pria Fossil FS4991
           </a>
-          <h3 class="price">Rp 1,230,000</h3>
-          <s class="was">Rp 2,735,000</s>
-          <div class="rating-div">
-            <span class="rating">
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star-half-o" aria-hidden="true"></i>
-              <i class="fa fa-star-o" aria-hidden="true"></i>
+          <h3 className="price">Rp 1,230,000</h3>
+          <s className="was">Rp 2,735,000</s>
+          <div className="rating-div">
+            <span className="rating">
+              <i className="fa fa-star" aria-hidden="true"></i>
+              <i className="fa fa-star" aria-hidden="true"></i>
+              <i className="fa fa-star" aria-hidden="true"></i>
+              <i className="fa fa-star-half-o" aria-hidden="true"></i>
+              <i className="fa fa-star-o" aria-hidden="true"></i>
               <a>10 ulasan</a>
             </span>
           </div>

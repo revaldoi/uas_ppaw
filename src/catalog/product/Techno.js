@@ -18,7 +18,7 @@ function Techno() {
         <div className="text-center">
           <span className="label label-discount">20% OFF</span>
 
-          <a href="detail.html">
+          <a href="/detail">
             <img
               className="card-img-top catalog"
               src={ProductImage}
@@ -27,7 +27,7 @@ function Techno() {
           </a>
         </div>
         <div className="card-body">
-          <a href="detail.html" className="product-name">
+          <a href="/detail" className="product-name">
             Techno Tip PPS7
           </a>
           <br></br>

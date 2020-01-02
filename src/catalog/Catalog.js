@@ -13,11 +13,11 @@ function Catalog() {
   return (
     <div className="container p-3">
       <div className="d-none d-sm-block bread">
-        <a href="#" className="text-dark">
+        <a href="/detail" className="text-dark">
           Home{" "}
         </a>
         <i className="fa fa-angle-double-right" aria-hidden="true"></i>
-        <a href="#" className="text-dark font-weight-bold active">
+        <a href="/detail" className="text-dark font-weight-bold active">
           {" "}
           Katalog
         </a>

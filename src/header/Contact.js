@@ -40,10 +40,12 @@ function RightPart() {
         bantuan
       </span>
       <span className="mt-2 ml-2 mr-2">
-        <a className="text-white ft-12">DAFTAR</a>
+        <a href="/" className="text-white ft-12">
+          DAFTAR
+        </a>
       </span>
       <span className="ml-2">
-        <a className="btn btn-sm m0 bg-white ft-12" href="katalog.html">
+        <a className="btn btn-sm m0 bg-white ft-12" href="/catalog">
           MASUK
         </a>
       </span>

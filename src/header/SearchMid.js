@@ -16,8 +16,8 @@ export default function SearchMid() {
 
   for (let list of lists) {
     final.push(
-      <span className="ml-2">
-        <a href="katalog.html" className="text-white ft-12">
+      <span className="ml-2" key={list}>
+        <a href="/catalog" className="text-white ft-12">
           {list}
         </a>
       </span>
@@ -28,7 +28,7 @@ export default function SearchMid() {
     <div className="container d-none d-md-block pb-4">
       <div className="row">
         <div className="col-md-3">
-          <a className="navbar-brand risk" href="#hi">
+          <a className="navbar-brand risk" href="/">
             <img className="img-fluid" src={logo} alt="yubobo" />
           </a>
         </div>
@@ -42,7 +42,7 @@ export default function SearchMid() {
             />
             <div className="input-group-prepend">
               <a
-                href="katalog.html"
+                href="/catalog"
                 className="input-group-text text-white bg-transparent"
               >
                 <i className="fas fa-search"></i>
@@ -51,7 +51,7 @@ export default function SearchMid() {
           </div>
           <div className="mt-2 text-white under-search">
             <span className="">
-              <a href="katalog.html" className="text-white ft-12">
+              <a href="/catalog" className="text-white ft-12">
                 Elektronik
               </a>
             </span>
@@ -60,10 +60,10 @@ export default function SearchMid() {
         </div>
         <div className="col-md-1 mt-4 pl-0 pr-0">
           <div className="navbar-nav nv-con text-r">
-            <a className="nav-link nv-icon text-r">
+            <a href="/" className="nav-link nv-icon text-r">
               <i className="fas fa-heart"></i>
             </a>
-            <a className="nav-link nv-icon text-r">
+            <a href="/" className="nav-link nv-icon text-r">
               <i className="fas fa-shopping-cart"></i>
             </a>
           </div>

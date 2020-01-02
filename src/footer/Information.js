@@ -9,7 +9,7 @@ export default function Information() {
       <div className="container">
         <div className="row">
           <div className="col-md-3 col-12">
-            <a className="navbar-brand padding-bottom-20" href="katalog.html">
+            <a className="navbar-brand padding-bottom-20" href="/catalog">
               <img src={logo} alt="logo" className="height-60 img-fluid lazy" />
             </a>
             <h4>CONTACT US</h4>
@@ -32,27 +32,27 @@ export default function Information() {
             <h4>INFORMATION</h4>
             <ul className="widget-list extra">
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Deliveri Information
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Terms & Conditions
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Affiliate
                 </a>
               </li>
@@ -62,32 +62,32 @@ export default function Information() {
             <h4>CUSTOMER SERVICE</h4>
             <ul className="widget-list extra">
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Contact Us
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Returns
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Site Map
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Order History
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Wish List
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Newsletter
                 </a>
               </li>
@@ -97,32 +97,32 @@ export default function Information() {
             <h4>EXTRAS</h4>
             <ul className="widget-list extra">
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Brands
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Gift Certificates
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Affiliate
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Specials
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   My Account
                 </a>
               </li>
               <li>
-                <a href="katalog.html" className="text">
+                <a href="/catalog" className="text">
                   Order History
                 </a>
               </li>
@@ -138,7 +138,7 @@ export default function Information() {
                   </div>
                 </div>
                 <div className="inline text">
-                  <a href="katalog.html">
+                  <a href="/catalog">
                     <p className="text">Sering Melamun Pertanda Cerdas?</p>
                     <span className="date">Mon, 04-12-2017</span>
                   </a>
@@ -151,7 +151,7 @@ export default function Information() {
                   </div>
                 </div>
                 <div className="inline text">
-                  <a href="katalog.html">
+                  <a href="/catalog">
                     <p className="text">
                       Ketahui Berbagai Penyebab Diare dan Cara Mengatasi Diare
                     </p>
