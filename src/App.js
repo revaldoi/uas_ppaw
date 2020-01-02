@@ -7,12 +7,13 @@ import "popper.js";
 import Header from "./header/";
 import Footer from "./footer/";
 import Home from "./home/";
+import Detail from "./detail/Detail";
 
 function App() {
   return (
     <React.Fragment>
       <Header />
-      <Home />
+      <Detail />
       <Footer />
     </React.Fragment>
   );

@@ -27,8 +27,8 @@ function Mobile() {
                         <i className="fa fa-bars" aria-hidden="true"></i>
                     </div>
                     <ul className="navbar-nav">
-                        <li className="active sort-by">
-                            <select className="custom-select mb-0">
+                        <li className="active sort-by sortm">
+                            <select className="custom-select mb-0 ">
                                 <option value="">Sort by popularitas</option>
                                 <option value="date_desc">Sort by price</option>
                                 <option value="date_asc">Sort by rating</option>
@@ -37,9 +37,9 @@ function Mobile() {
                     </ul>
                     <div className="container">
                         <ul className="navbar-nav">
-                            <li>
-                                <form className="form-inline m-4 my-lg-0">
-                                    <select className="nav-item custom-select show">
+                            <li className= "mob">
+                                <form className="form-inline m-4 my-lg-0 mob">
+                                    <select className="nav-item custom-select show mob">
                                         <option value="">Show 15</option>
                                         <option value="date_desc">Show 30</option>
                                         <option value="date_asc">Show 50</option>

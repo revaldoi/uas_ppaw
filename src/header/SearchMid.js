@@ -25,7 +25,7 @@ export default function SearchMid() {
   }
 
   return (
-    <div className="container-fluid d-none d-md-block pb-4 pl-5">
+    <div className="container d-none d-md-block pb-4">
       <div className="row">
         <div className="col-md-3">
           <a className="navbar-brand risk" href="#hi">
@@ -58,12 +58,12 @@ export default function SearchMid() {
             {final}
           </div>
         </div>
-        <div className="col-md-1 mt-4 pl-2 pl-0">
-          <div className="navbar-nav nv-con">
-            <a className="nav-link nv-icon pl-0 ml-0 pr-0">
+        <div className="col-md-1 mt-4 pl-0 pr-0">
+          <div className="navbar-nav nv-con text-r">
+            <a className="nav-link nv-icon text-r">
               <i className="fas fa-heart"></i>
             </a>
-            <a className="nav-link nv-icon">
+            <a className="nav-link nv-icon text-r">
               <i className="fas fa-shopping-cart"></i>
             </a>
           </div>
