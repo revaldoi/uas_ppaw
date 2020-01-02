@@ -9,11 +9,13 @@
 <br>
 
 ## Matakuliah
-*Praktikum Pemrograman Aplikasi Web - Kelas A*
+
+_Praktikum Pemrograman Aplikasi Web - Kelas A_
 
 <br>
 
 ## Kelompok 2
+
 1. Nisa Eka Juliana - 1167050116
 2. Enrico Raynaldo - 1177050036
 3. Fauzan Herdika Tubagus Putra - 1177050043
@@ -26,5 +28,10 @@
 
 <br>
 
+## URL Hosting
+
+[https://yubobo.netlify.com](https://yubobo.netlify.com)
+
 ## Layout Page
+
 [Download](https://drive.google.com/open?id=122Of2mzXbh7sE8XAzA45KoDSDwhuuqC0)
