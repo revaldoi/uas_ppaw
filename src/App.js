@@ -6,12 +6,9 @@ import "bootstrap/dist/js/bootstrap.js";
 import "jquery";
 import "popper.js";
 import Home from "./home/Home";
-import Catalog from "./catalog/Catalog";
-import Detail from "./detail/Detail";
-import Header from "./common/header";
 
 function App() {
-  return <Header />;
+  return <Home />;
 }
 
 export default App;
