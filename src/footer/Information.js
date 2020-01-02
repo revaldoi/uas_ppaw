@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../img/logo.png";
-import pyntar from "../img/pyntar.png";
-import dyare from "../img/dyare.png";
+import logo from "./img/logo.png";
+import pyntar from "./img/pyntar.png";
+import dyare from "./img/dyare.png";
 
 export default function Information() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-import phone from "../img/phone.png";
-import time from "../img/time.png";
-import mail from "../img/mail.png";
-import cart from "../img/cart.png";
+import phone from "./img/phone.png";
+import time from "./img/time.png";
+import mail from "./img/mail.png";
+import cart from "./img/cart.png";
 
 export default function Support() {
   return (
