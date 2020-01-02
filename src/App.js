@@ -5,9 +5,15 @@ import "bootstrap/dist/js/bootstrap.js";
 import "jquery";
 import "popper.js";
 import Header from "./header/";
+import Footer from "./footer/";
 
 function App() {
-  return <Header />;
+  return (
+    <React.Fragment>
+      <Header />
+      <Footer />
+    </React.Fragment>
+  );
 }
 
 export default App;
