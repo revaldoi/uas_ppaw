@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .font1 {
     font-size: 13px;
 }
@@ -13,10 +14,61 @@
 
 .edo img {
     height: 100%;
+=======
+/* * {
+    font-size: 10pt; 
+} */
+
+.product{
+    background: white;
+    border-color: grey;
+}
+
+.product-banner{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(lightgreen, #3bb2b8);
+}
+
+.chevron{
+    float: right;
+    font-size: 25px;
+    height: 2em;
+    color: white;
+}
+
+.chevron img{
+    left: 69%;
+}
+
+.pbanner-img{
+    position: absolute;
+    width: auto;
+    height: 3em;
+    float: left;
+    left: -0.058em;
+    /*margin-right: 10px;*/
+}
+
+.pbanner-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 5px;
+>>>>>>> e95d53360022176e1180ba670c7846d60f970ea0
     width: 100%;
     text-align: center;
 }
 
+<<<<<<< HEAD
 .pencarian img {
     height: 60%;
     width: 60%;
@@ -32,4 +84,264 @@
         width: 0;
         height: 0;
     }
+=======
+.pbanner-title p{
+    font-size: 15pt;
+}
+
+.product-banner span, .pbanner-title img{
+    float: right;
+    padding-top: 5px;
+}
+
+.product-title{
+    font-weight: bold;
+    padding-bottom: 15px; 
+}
+
+.more-link{
+    float: right;
+    color: #3bb2b8;
+    font-weight: bold;
+}
+
+.underline{
+    border-bottom:5px solid #17A2BB;
+}
+
+.product_terlaris{
+    text-align: center;
+    border: solid 1px lightgrey;
+    padding: 1.875rem 1.875rem 1.5625rem;
+}
+
+.card-product{
+    /*padding: 1.875rem 1.875rem 1.5625rem;*/
+    width: 50%;
+}
+
+.product-img{
+    /*display: flex;*/
+    /*padding: 5px;*/
+    position: relative;
+}
+
+.product > img {
+    width: 10rem;
+    height: auto;
+}
+
+.top1{
+    position: absolute;
+    background: cyan;
+    /*right:0.10rem;*/
+    width: 30px;
+    /*padding: 1em;*/
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color:white;
+}
+
+.top1:after{
+    position: absolute;
+    top: 100%;
+    width: 20%;
+    left: 50%;
+    margin-left: -50%;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: solid 15px cyan;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+}
+
+.top1-img{
+    /*position: relative;*/
+    width: 10em;
+    height: auto;
+}
+
+.top1-title{
+    background: grey;
+    opacity: 0.7;
+    position: absolute;
+    font-size: 1em;
+    /*left: 40px;*/
+    top: 100px;
+    width: 10em;
+    color: white;
+}
+
+.top2{
+    position: absolute;
+    background: orange;
+    /*right:0.10rem;*/
+    width: 30px;
+    /*padding: 1em;*/
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color:white;
+}
+
+.top2:after{
+    position: absolute;
+    top: 100%;
+    width: 20%;
+    left: 50%;
+    margin-left: -50%;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: solid 15px orange;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+}
+
+.top2-img{
+    width: 5em;
+    height: 5em;
+}
+
+.card-text{
+    padding: 5px;
+}
+
+.card-title{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.selected{
+    border-color: #3bb2b8;
+}
+.btn-selected{
+    background: #3bb2b8;
+    color: white;
+    border: transparent;
+    padding: 5px;
+}
+
+.corner-ribbon{
+    position: absolute;
+    background: lightgreen;
+    right:0.10rem;
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color:red;
+}
+
+.corner-ribbon i{
+    color: white;
+}
+
+.corner-ribbon:after {
+    position: absolute;
+    top: 100%;
+    width: 20%;
+    left: 50%;
+    margin-left: -50%;
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: solid 15px white;
+    border-left: solid 15px lightgreen;
+    border-right: solid 15px lightgreen;
+}
+
+
+
+/*width: 48%;
+  position: relative;
+  float: rig;
+  text-transform: uppercase;
+  color: green;*/
+
+.product-price{
+    color:#17A2BB;
+}
+
+.product-rating{
+    color: grey;
+    font-size: 7pt;
+}
+
+.star{
+    color: orange;
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.star-rating{
+    padding-left: 5px;
+    float: right;
+}
+
+
+.rating{
+    padding-right: 10px;
+}
+
+@media (max-width: 360px){
+    body{
+        /*margin-left: 10px;*/
+    }
+
+    .product-banner{
+        height: 60px;
+        border-radius: 50px;
+        color: white;
+        text-align: center;
+        font-weight: bold;  
+        font-size: 20px;
+    }
+
+    .product-banner .pbanner-img{
+        position: relative;
+        float: left;
+        /*left: -20%;*/
+        padding: 0;
+        margin: 0;
+    }
+
+    .pbanner-title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+
+    .pbanner-title p{
+        font-size: 20px;
+    }
+
+    .chevron{
+        background-color: transparent;
+        position: absolute;
+        float: right;
+        font-size: 25px;
+        height: 2em;
+        margin-right: 10px;
+    }
+
+    .chevron img{
+        left: 0%;
+    }
+
+    .product-img{
+        width: 60%;
+    }
+
+    .product-img2{
+        width: 40%;
+        right: -20%;
+    }
+
+>>>>>>> e95d53360022176e1180ba670c7846d60f970ea0
 }
