@@ -8,12 +8,13 @@ import Header from "./header/";
 import Footer from "./footer/";
 import Home from "./home/";
 import Detail from "./detail/Detail";
+import Catalog from "./catalog/Catalog";
 
 function App() {
   return (
     <React.Fragment>
       <Header />
-      <Detail />
+      <Catalog />
       <Footer />
     </React.Fragment>
   );
