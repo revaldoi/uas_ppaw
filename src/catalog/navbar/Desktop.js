@@ -9,7 +9,7 @@ import '../css/catalog.css';
 function Desktop() {
     return (
         <div className="App">
-            <nav className="d-none d-sm-block tool navbar-expand-lg">
+            <nav className="d-none d-sm-block tool navbar-expand-lg dnav">
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -29,7 +29,7 @@ function Desktop() {
                     </div>
                     <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li className="nav-item active">
-                            <select className="custom-select mb-0">
+                            <select className="custom-select mb-0 sort">
                                 <option value="">Sort by popularitas</option>
                                 <option value="date_desc">Sort by price</option>
                                 <option value="date_asc">Sort by rating</option>
@@ -39,7 +39,7 @@ function Desktop() {
                     <ul className="navbar-nav">
                         <li>
                             <form className="form-inline show-pc">
-                                <select className="custom-select">
+                                <select className="custom-select pc">
                                     <option value="">Show 15</option>
                                     <option value="date_desc">Show 30</option>
                                     <option value="date_asc">Show 50</option>

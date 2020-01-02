@@ -10,7 +10,7 @@ import ProductSidebar from './img/katalog-side.png';
 function Sidebar() {
     return (
         <div classNameName="App">
-            <div className="container-fluid py-5">
+            <div className="container-fluid py-5 sided">
                 <h4>Cari Produk</h4>
                 <input type="email" className="form-control my-4" placeholder="Cari produk..."/>
                 <button type="button" className="btn btn-primary btn-md btn-block">CARI PRODUK</button>
