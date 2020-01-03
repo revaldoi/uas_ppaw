@@ -22,7 +22,7 @@ _Praktikum Pemrograman Aplikasi Web - Kelas A_
 4. Fawwaz Syiham Muyassar - 1177050044
 5. Muhammad Alwan Andika - 1177050066
 6. Revaldo Pratama Putra - 1177050095
-7. Rifqi Sambas Khairurrohmal - 1177050099
+7. Rifqi Sambas Khairurrohman - 1177050099
 8. Tri Kurnia Sandi - 1177050115
 9. Zaenal Musthofa - 1177050122
 
