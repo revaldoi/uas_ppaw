@@ -17,7 +17,7 @@ function Xiaomi() {
       <div className="card">
         <div className="text-center">
           <span className="label label-new">NEW</span>
-          <a href="detail.html">
+          <a href="/detail">
             <img
               className="card-img-top catalog"
               src={ProductImage}
@@ -26,7 +26,7 @@ function Xiaomi() {
           </a>
         </div>
         <div className="card-body">
-          <a href="detail.html" className="product-name">
+          <a href="/detail" className="product-name">
             Xiaomi Mi Band 2 Black
           </a>
           <br></br>
